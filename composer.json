@@ -28,5 +28,8 @@
             "type": "git",
             "url": "https://github.com/agencycoda/mia-eloquent-mezzio.git"
         }
-    ]
+    ],
+    "scripts": {
+        "serve": "php -S 0.0.0.0:8080 -t example/"
+    }
 }
