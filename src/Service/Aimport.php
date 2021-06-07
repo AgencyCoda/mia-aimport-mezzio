@@ -71,7 +71,7 @@ class Aimport
             $this->initAuthToken();
         }
 
-        return $this->generateRequest('GET', 'payments/' + $impUid);
+        return $this->generateRequest('GET', 'payments/' . $impUid);
     }
 
     protected function generateRequest($method, $path, $params = null)
